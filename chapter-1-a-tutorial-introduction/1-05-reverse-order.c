@@ -4,7 +4,7 @@
 #define UPPER 300
 #define STEP 20
 
-int main() {
+int main(void) {
   float fahr, celsius;
 
   printf("---------------------------\n");
@@ -15,4 +15,6 @@ int main() {
     printf("| %10.1f | %10.1f |\n", fahr, celsius);
   }
   printf("---------------------------\n");
+
+  return 0;
 }
